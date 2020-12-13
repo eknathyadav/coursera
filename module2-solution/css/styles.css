@@ -8,14 +8,15 @@ div.heading {
   font-size: medium;
   text-align: center;
   margin: auto;
-  word-wrap: normal;
+  padding: 15px;
+  font-size: 30px;
 }
 div.top {
   background-color: RGB(195, 68, 122);
   height: 30%;
   padding: 1%;
 }
-@media (max-width: 645px) {
+/* @media (max-width: 645px) {
   div.heading {
     border: white solid 1px;
     border-radius: 25px;
@@ -26,11 +27,11 @@ div.top {
     word-wrap: normal;
     padding: 10px;
   }
-}
+} */
 div.sections {
-  margin: 10px;
+  width: 100%;
 }
-div.sections div {
+div.sections > div {
   margin-top: 5px;
 }
 div.sections h3 {
@@ -54,19 +55,35 @@ p {
   .l-4,
   .m-6 {
     float: left;
-    margin-left: 1px;
   }
   .l-4 {
-    width: 33.23%;
+    width: 33.33%;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .l-4,
-  .m-6 {
+  .m-6,
+  .m-12 {
     float: left;
-    margin-left: 1px;
   }
   .m-6 {
-    width: 49.8%;
+    width: 50%;
+  }
+  .m-12 {
+    width: 100%;
+  }
+}
+@media (max-width: 828px) {
+  div.heading {
+    border: white solid 1.5px;
+    border-radius: 25px;
+    width: 20%;
+    font-size: medium;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
   }
 }
