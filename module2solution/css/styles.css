@@ -1,0 +1,72 @@
+body {
+  margin: 0px;
+}
+div.heading {
+  border: white solid 1.5px;
+  border-radius: 25px;
+  width: 20%;
+  font-size: medium;
+  text-align: center;
+  margin: auto;
+  word-wrap: normal;
+}
+div.top {
+  background-color: RGB(195, 68, 122);
+  height: 30%;
+  padding: 1%;
+}
+@media (max-width: 645px) {
+  div.heading {
+    border: white solid 1px;
+    border-radius: 25px;
+    width: 20%;
+    font-size: small;
+    text-align: center;
+    margin: auto;
+    word-wrap: normal;
+    padding: 10px;
+  }
+}
+div.sections {
+  margin: 10px;
+}
+div.sections div {
+  margin-top: 5px;
+}
+div.sections h3 {
+  float: right;
+  margin: 3px;
+  border: black solid 1px;
+  padding: 5px;
+  background-color: chartreuse;
+}
+#section1,
+#section2,
+#section3 {
+  margin: 3px;
+  background-color: cyan;
+  border: black solid 1px;
+}
+p {
+  padding: 10px;
+}
+@media (min-width: 992px) {
+  .l-4,
+  .m-6 {
+    float: left;
+    margin-left: 1px;
+  }
+  .l-4 {
+    width: 33.23%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .l-4,
+  .m-6 {
+    float: left;
+    margin-left: 1px;
+  }
+  .m-6 {
+    width: 49.8%;
+  }
+}
