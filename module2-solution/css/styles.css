@@ -5,11 +5,13 @@ div.heading {
   border: white solid 1.5px;
   border-radius: 25px;
   width: 20%;
+  height: 50%;
   font-size: medium;
   text-align: center;
   margin: auto;
   padding: 15px;
   font-size: 30px;
+  font-weight: bold;
 }
 div.top {
   background-color: RGB(195, 68, 122);
@@ -36,7 +38,7 @@ div.sections > div {
 }
 div.sections h3 {
   float: right;
-  margin: 3px;
+  margin: -1px;
   border: black solid 1px;
   padding: 5px;
   background-color: chartreuse;
@@ -73,7 +75,7 @@ p {
     width: 100%;
   }
 }
-@media (max-width: 828px) {
+@media (max-width: 908px) {
   div.heading {
     border: white solid 1.5px;
     border-radius: 25px;
